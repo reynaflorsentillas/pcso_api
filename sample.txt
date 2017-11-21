@@ -1,0 +1,45 @@
+Sample DATA: Commit Transaction
+
+JSON String
+
+{"applicant_id":"123456","application_id":"123456","gl_number":"123456","patient_name":"John Smith","assistance_id":"1","specific_assistance_id": 1,"approved_assistance_amount":"5000.00","medical_institution_id":"1","branch_id":"1","application_date":"11-13-2017","date_approved": "11-13-2017","transaction_code":"IMAP"}
+
+HEX String
+
+03d66ec78563325c19e8775e490aa0668c755ce9cef06e691d8be33915cfbf0a2099a3df6577f5914bb0a72a8a3417a62a0db06f790c0469197f2f1634534860844a3adaa5ec2a6c36305e5ec091d1db148d6f28ab826da13a261a88e3d374bc77b9899a9a008848366ea9bcdfcc005b3c593cb63e8cf5dec49ddb6894a4dfa93203d3990e77ffa6caefad29e2ef0a968bd6ff5e5efae90e611be7379f611f49e4a2cbabf52ab2ced9f7ebff9eeaba37e6e355dff6917aebd711341ee44fded1b8f08adfb954750463b4938768279c933c593cb63e8cf5de56b3abe32b699cec3c593cb63e8cf5de5a0c6a8b32967dc9277510eb7eff59c6a1d59fd44a2d3ce1a0f794b13363433d50922f02e4f2f79adf3418ee995850c35a9a9e2a626380e8172e50930f06efdf72e70de059a27b24a13f0550b6d711c66c9672ca07d93c47cb5adff04fbc3fa2cb5adff04fbc3fa2
+
+
+
+
+Sample DATA: Reverse Transaction
+
+JSON String
+
+{"gl_number":"123456","reverse_transaction":"expired","reverse_reason":"Not Claimed"}
+
+HEX String
+
+3403206638991f408ec6cea63cd3a3582ea4364295a3497e24dd2f2d13d488c372e70de059a27b242f8de3e5fc52a769ae6005c80f34e5a06fb5a70997211f9e98f77ea5a4ffa4953ca6b49e56f431643bef79ebc2b3130a431f85d8ae8a3f6f
+
+
+
+Sample DATA: GL Check Inquiry
+
+JSON String
+
+{"gl_number":"123456"}
+
+HEX String
+
+3403206638991f408ec6cea63cd3a358a60a17ae74f80bbe3b0ad3444952374f
+
+
+Sample DATA: GL Check Status
+
+JSON String
+
+{"gl_number":"123456"}
+
+HEX String
+
+3403206638991f408ec6cea63cd3a358a60a17ae74f80bbe3b0ad3444952374f
